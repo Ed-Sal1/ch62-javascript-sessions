@@ -78,3 +78,22 @@ console.log( printFullName("Johan", "Gonzalez") );
 const printFullName = function (firstName, lastName) {
   return `${firstName} ${lastName} estudiante de la Ch62`;
 };
+
+/*
+ ------------ Funciones flecha -----------------------
+             (arrow functions)
+Funciones similares a las funciones expresadas pero:
+ - No requiere la palabra reservada function
+ - Si tiene una sola instrucción no requiere las llaves {}
+ - Si la instrucción es el mismo retorno, no requiere la palabra return
+
+sintaxis:
+    const nombreVariable = (parametros) => instrucción;
+
+    const nombreVariable = (parametros) => {
+        instrucción;
+        return expresión;
+    }
+*/
+
+// Convertir la función printFullName a función flecha
